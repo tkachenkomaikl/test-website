@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "demi",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-08-17",
+  "assets": {
+    "not_found_handling": "single-page-application"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "secrets": {
+    "required": [
+      "DATABASE_LINK",
+      "PUBLIC_KEY",
+      "PRIVATE_KEY"
+    ]
+  }
+}

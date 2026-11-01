@@ -1,0 +1,21 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "types": [
+      "@cloudflare/worker-types"
+    ]
+  },
+  "include": [
+    "src",
+    "worker",
+    "worker-configuration.d.ts"
+  ]
+}
